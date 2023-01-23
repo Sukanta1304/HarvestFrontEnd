@@ -1,70 +1,91 @@
-# Getting Started with Create React App
+# GETHARVEST.COM Clone
+# smooth-dock-1057
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Introduction to our project(https://getharvest-masai-clone.netlify.app/):
 
-## Available Scripts
+### Harvest offers time tracking, invoicing, expense tracking, and time-based reporting. Users can send automated payment reminders from the software if clients haven't paid an invoice on time. This is a "less stressful option for managers who hate dunning their customers.
 
-In the project directory, you can run:
 
-### `npm start`
+# Tech Stacks Used:
+# ![image](https://www.freecodecamp.org/news/content/images/size/w2000/2020/03/1_qgxaya.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Clone of GETHARVEST.COM
+This is a collaborative Project from Masai School in the Construct Week. We are 5 members of the team:
 
-### `npm test`
+# 1. Prabhat Mishra : Team Lead
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# 2. Sukanta Dolai
 
-### `npm run build`
+# 3. Suraj Sangle
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# 4. Abhishek Sukumar
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Firstly let’s know about GETHARVEST. 
+# Harvest helps track your time, manage projects, and invoice clients efficiently.
 
-### `npm run eject`
+Challenges and hardships we faced:
+During the project, we divided our work among ourselves and we played our part very well.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Tech & Tools Used :
+These are the technologies used in this project which are available below:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Getharvest.com (original website)
+Chakra UI (UI Styling Library)
+For Frontend : HTML5, CSS3, Javascript, JS6, ReactJS
+For database: Local storage
+For authentication: HEROKU APP
+Functionalities we made:
+Landing Page :
+The landing page consists of various templates for video making. Users can hover on the given template video and preview it. Users can see filtration according to the type of video template.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Register and Login :
+On the register page, the user can register by giving common details like First Name, Work Email, Mobile Number, and Password.
 
-## Learn More
+If the user is already registered, the user can log in with an Email & Password.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+signup and login successful user is navigated to the dashboard.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Keep your books up to date
+Automatically copy your Harvest invoices and payments to QuickBooks Online or Xero for simplified accounting.
 
-### Code Splitting
+# Invoicing & payments
+Turn your team’s tracked time and expenses into invoices and collect payment quickly with integrated online payments.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# Get paid fast with online payments
+PayPal and Stripe integrations let your clients quickly and conveniently pay invoices online.
 
-### Analyzing the Bundle Size
+# Streamline your invoicing
+Easily create and send accurate invoices using your team’s time and expenses already tracked in Harvest.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+# Expenses page
+Here you can manage your expenses easily everyday.
+You just have to enter The name of the project 
+you're gonna invest. The notes regarding it
+and the expenditure you wanna alot.
+after that the data will be sent to the server on backend 
+and fetched and will showup below in the following
+lines. If theres any mistake you can delete it and
+add it again.
 
-### Making a Progressive Web App
+In this Page you will be able to explore all the tourist destinations in the video formats along with modal videos.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Notes :
+All the images and links are used from the original website to get a better experience of the website. I have also included the Github link of our project for your reference.
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+I would say, thank you for reading this here. I hope you will find it helpful. I and my teammates completed this project with full enthusiasm, focus, and hard work. It may have some bugs, but we will try to fix them soon.
 
-### Deployment
+It was not an easy task to implement the new concepts on the first attempt. I would also thank my team members to make this project successful. Feel free to reach out to us for any feedback.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+# Github Repo Link : https://github.com/prabhatm39/smooth-dock-1057
 
-### `npm run build` fails to minify
+# Netlify Link : https://getharvest-masai-clone.netlify.app/
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+Backend:- npm i express nodemon cors bcrypt mongoose dotenv node-localstorage bcryptjs email-validator jsonwebtoken passport passport-google-oauth2 passport-google-oauth20 uuid
+
+Frontend :- npm i react-router-dom@6 axios redux react-redux redux-thunk npm i @chakra-ui/react @emotion/react @emotion/styled framer-motion
